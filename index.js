@@ -15,7 +15,7 @@ dotenv.config({ path: path.resolve(__dirname, ".env") });
 
 // ── Middleware ──────────────────────────────────
 app.use(cors({
-  origin: process.env.FRONTEND_URL || "*",
+  origin: "https://virello-ai-chatbot-frontend.vercel.app/",
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
 }));
