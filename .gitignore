@@ -1,0 +1,10 @@
+# Secret environment variables
+.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
